@@ -1,5 +1,5 @@
 {
-  "name": "wappalyzer-core",
+  "name": "wappalyzer",
   "description": "Identify technology on websites",
   "keywords": [
     "analyze",
@@ -28,8 +28,22 @@
       "url": "https://www.buymeacoffee.com/aliasio"
     }
   ],
-  "main": "wappalyzer.js",
+  "main": "driver.js",
   "files": [
+    "cli.js",
+    "categories.json",
+    "driver.js",
+    "index.js",
+    "technologies/*",
     "wappalyzer.js"
-  ]
+  ],
+  "bin": {
+    "wappalyzer": "./cli.js"
+  },
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
 }
