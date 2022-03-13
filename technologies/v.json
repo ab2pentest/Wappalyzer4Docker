@@ -633,11 +633,15 @@
     "description": "Vue.ai is an AI-powered experience management suite which combines the power of product, customer and business intelligence using computer vision and NLP.",
     "icon": "Vue.ai.svg",
     "js": {
-      "vuex": ""
+      "vuex": "",
+      "getVueUrlSegments": ""
     },
     "saas": true,
-    "scriptSrc": "vuex\\.vue\\.ai",
-    "website": "https://vue.ai/"
+    "scriptSrc": [
+      "vuex\\.vue\\.ai",
+      "vue_ai\\.js"
+    ],
+    "website": "https://vue.ai"
   },
   "Vue.js": {
     "cats": [
@@ -671,10 +675,12 @@
     "cats": [
       66
     ],
-    "css": "\\.v-application \\.d-block ",
-    "html": "<div data-app[^>]+class=\"v-application",
+    "description": "Vuetify is a reusable semantic component framework for Vue.js that aims to provide clean, semantic and reusable components.",
     "icon": "Vuetify.svg",
     "implies": "Vue.js",
+    "css": "\\.v-application \\.d-block",
+    "dom": "style#vuetify-theme-stylesheet",
+    "oss": true,
     "website": "https://vuetifyjs.com"
   },
   "vBulletin": {

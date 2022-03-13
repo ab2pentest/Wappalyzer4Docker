@@ -1164,6 +1164,23 @@
     "scriptSrc": "bat\\.bing\\.com/bat\\.js",
     "website": "https://ads.microsoft.com"
   },
+  "Microsoft Application Insights": {
+    "cats": [
+      78
+    ],
+    "description": "Microsoft Application Insights is a feature of Azure Monitor that provides extensible application performance management (APM) and monitoring for live web apps.",
+    "icon": "Microsoft.svg",
+    "js": {
+      "appInsights.addTelemetryInitializer": "",
+      "appInsightsSDK": "appInsights",
+      "appInsights.SeverityLevel": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+  },
   "Microsoft Ajax Content Delivery Network": {
     "cats": [
       31
@@ -1297,6 +1314,22 @@
     "saas": true,
     "scriptSrc": "\\.miestro\\.com",
     "website": "https://miestro.com"
+  },
+  "Milestone CMS": {
+    "cats": [
+      1
+    ],
+    "description": "Milestone CMS is a SEO-first CMS that offers built-in advanced schema markups and Core Web Vitals conformance for improved search performance.",
+    "icon": "Milestone.svg",
+    "implies": "Microsoft ASP.NET",
+    "meta": {
+      "generator": "^Milestone\\sCMS\\s([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.milestoneinternet.com/products/milestone-cms"
   },
   "Milligram": {
     "cats": [
@@ -1903,6 +1936,22 @@
     },
     "url": "/mozard/!suite",
     "website": "http://mozard.nl"
+  },
+  "MUI": {
+    "cats": [
+      66
+    ],
+    "description": "MUI(formerly Material UI) is a simple and customisable component library to build faster, beautiful, and more accessible React applications.",
+    "icon": "MUI.svg",
+    "oss": true,
+    "saas": true,
+    "css": "\\.MuiPaper-root",
+    "dom": "style[data-meta='MuiPaper']",
+    "pricing": [
+      "freemium",
+      "payg"
+    ],
+    "website": "https://mui.com"
   },
   "Mulberry": {
     "cats": [

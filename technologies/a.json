@@ -320,6 +320,23 @@
     ],
     "website": "https://accesstrade.global/"
   },
+  "Accentuate Custom Fields": {
+    "cats": [
+      100
+    ],
+    "description": "Accentuate Custom Fields is the professional and de facto solution to easily extend your Shopify store with your own custom fields such multi-language text fields, images, checkboxes, dates, selection list and custom JSON objects.",
+    "icon": "Accentuate Custom Fields.png",
+    "requires": "Shopify",
+    "dom": "a[style*='.accentuate.io/'], a[data-bg*='.accentuate.io/'], div[style*='.accentuate.io/'], img[src*='.accentuate.io/'], img[data-src*='.accentuate.io/']",
+    "scripts": "\\.accentuate\\.io/",
+    "saas": true,
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "website": "https://www.accentuate.io"
+  },
   "AccessiBe": {
     "cats": [
       68
@@ -3704,6 +3721,25 @@
     "icon": "azure.svg",
     "implies": "Azure",
     "website": "https://azure.microsoft.com/en-us/services/cdn/"
+  },
+  "Azure Monitor": {
+    "cats": [
+      10,
+      92
+    ],
+    "description": "Azure Monitor collects monitoring telemetry from a variety of on-premises and Azure sources. Azure Monitor helps you maximise the availability and performance of your applications and services.",
+    "icon": "azure.svg",
+    "implies": "Azure",
+    "headers": {
+      "Content-Security-Policy": "js\\.monitor\\.azure\\.com"
+    },
+    "dom": "link[href*='js.monitor.azure.com']",
+    "scriptSrc": "js\\.monitor\\.azure\\.com/",
+    "saas": true,
+    "pricing": [
+      "payg"
+    ],
+    "website": "https://azure.microsoft.com/en-us/services/monitor"
   },
   "a-blog cms": {
     "cats": [
