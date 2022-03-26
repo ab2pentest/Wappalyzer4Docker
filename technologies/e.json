@@ -150,6 +150,22 @@
     "implies": "Docker",
     "website": "https://easyengine.io"
   },
+  "Easy Redirects": {
+    "cats": [
+      100
+    ],
+    "description": "Easy Redirects is a Shopify app built by Eastside, and part of the best Shopify Apps collection.",
+    "icon": "Easy Redirects.png",
+    "requires": "Shopify",
+    "scriptSrc": "easy-redirects\\..+/redirect-app\\.js",
+    "saas": true,
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "website": "https://apps.shopify.com/easyredirects"
+  },
   "EasyStore": {
     "cats": [
       6
@@ -178,6 +194,21 @@
       "\\bEasylog\\b"
     ],
     "website": "http://www.easylog.com.br"
+  },
+  "ECharts": {
+    "cats": [
+      25
+    ],
+    "oss": true,
+    "description": "ECharts is an open-source JavaScript visualisation library.",
+    "dom": "div[_echarts_instance_]",
+    "scriptSrc": [
+      "/echarts\\.min\\.[a-zA-Z0-9]*\\.js",
+      "/echarts(?:\\.simple)?(?:\\.esm)?(?:\\.common)?(?:\\.min)?\\.js",
+      "cdn\\.jsdelivr\\.net/(?:npm|gh/apache)/echarts@([\\d.]+(?:-[^/]+)?|latest)/dist/echarts.*\\.js\\;version:\\1"
+    ],
+    "icon": "echarts.png",
+    "website": "https://echarts.apache.org/"
   },
   "Ecovium": {
     "cats": [
@@ -545,8 +576,7 @@
   },
   "Enable": {
     "cats": [
-      68,
-      87
+      68
     ],
     "description": "Enable is a web accessibility plugin by uPress.",
     "icon": "Enable.png",
@@ -557,9 +587,8 @@
       "freemium",
       "poa"
     ],
-    "requires": "WordPress",
-    "scriptSrc": "cdn\\.enable\\.co\\.il/.+\\.js\\?ver=(\\d+(?:\\.\\d+)+)\\;version:\\1",
-    "website": "https://www.enable-accessibility.com"
+    "scriptSrc": "cdn\\.enable\\.co\\.il/",
+    "website": "https://www.enable.co.il"
   },
   "Engagio": {
     "cats": [

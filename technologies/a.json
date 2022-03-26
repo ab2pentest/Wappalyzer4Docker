@@ -307,6 +307,23 @@
     "saas": true,
     "website": "https://abicart.com/"
   },
+  "Accentuate Custom Fields": {
+    "cats": [
+      100
+    ],
+    "description": "Accentuate Custom Fields is the professional and de facto solution to easily extend your Shopify store with your own custom fields such multi-language text fields, images, checkboxes, dates, selection list and custom JSON objects.",
+    "dom": "a[style*='.accentuate.io/'], a[data-bg*='.accentuate.io/'], div[style*='.accentuate.io/'], img[src*='.accentuate.io/'], img[data-src*='.accentuate.io/']",
+    "icon": "Accentuate Custom Fields.png",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scripts": "\\.accentuate\\.io/",
+    "website": "https://www.accentuate.io"
+  },
   "AccessTrade": {
     "cats": [
       71
@@ -319,23 +336,6 @@
       "click\\.accesstra\\.de/js/nct/lp\\.js"
     ],
     "website": "https://accesstrade.global/"
-  },
-  "Accentuate Custom Fields": {
-    "cats": [
-      100
-    ],
-    "description": "Accentuate Custom Fields is the professional and de facto solution to easily extend your Shopify store with your own custom fields such multi-language text fields, images, checkboxes, dates, selection list and custom JSON objects.",
-    "icon": "Accentuate Custom Fields.png",
-    "requires": "Shopify",
-    "dom": "a[style*='.accentuate.io/'], a[data-bg*='.accentuate.io/'], div[style*='.accentuate.io/'], img[src*='.accentuate.io/'], img[data-src*='.accentuate.io/']",
-    "scripts": "\\.accentuate\\.io/",
-    "saas": true,
-    "pricing": [
-      "freemium",
-      "mid",
-      "recurring"
-    ],
-    "website": "https://www.accentuate.io"
   },
   "AccessiBe": {
     "cats": [
@@ -1218,6 +1218,19 @@
     "scriptSrc": "/cfajax/",
     "url": "\\.cfm(?:$|\\?)",
     "website": "http://adobe.com/products/coldfusion-family.html"
+  },
+  "Adobe Dynamic Media Classic": {
+    "cats": [
+      95
+    ],
+    "description": "Adobe Dynamic Media Classic is a platform that enables customers to manage, enhance, publish, and deliver dynamic rich media content and personal experiences to consumers across all channels and devices, including web, print material, email campaigns, desktops, social, and mobile.",
+    "icon": "Adobe Experience Platform.svg",
+    "headers": {
+      "Content-Security-Policy": "\\.scene7\\.com"
+    },
+    "dom": "source[srcset*='.scene7.com/'], link[href*='.scene7.com']",
+    "saas": true,
+    "website": "https://business.adobe.com/uk/products/experience-manager/scene7-login.html"
   },
   "Adobe DTM": {
     "cats": [
@@ -2588,6 +2601,19 @@
     "saas": true,
     "website": "https://g6.antv.vision"
   },
+  "Antsomi CDP 365": {
+    "cats": [
+      97
+    ],
+    "description": "Antsomi CDP 365 is a AI-enabled customer data platform from Southeast Asia.",
+    "icon": "Antsomi.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cdp\\.asia/",
+    "website": "https://www.antsomi.com"
+  },
   "AnyClip": {
     "cats": [
       36
@@ -3147,6 +3173,19 @@
       "generator": "^AsciiDoc ([\\d.]+)\\;version:\\1"
     },
     "website": "http://www.methods.co.nz/asciidoc"
+  },
+  "Asciidoctor": {
+    "cats": [
+      4
+    ],
+    "description": "Asciidoctor is an open-source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.",
+    "icon": "Asciidoctor.png",
+    "meta": {
+      "generator": "^Asciidoctor\\s([\\d\\.]+)$\\;version:\\1"
+    },
+    "implies": "Ruby",
+    "oss": true,
+    "website": "https://github.com/asciidoctor/asciidoctor"
   },
   "Asciinema": {
     "cats": [
@@ -3728,17 +3767,17 @@
       92
     ],
     "description": "Azure Monitor collects monitoring telemetry from a variety of on-premises and Azure sources. Azure Monitor helps you maximise the availability and performance of your applications and services.",
-    "icon": "azure.svg",
-    "implies": "Azure",
+    "dom": "link[href*='js.monitor.azure.com']",
     "headers": {
       "Content-Security-Policy": "js\\.monitor\\.azure\\.com"
     },
-    "dom": "link[href*='js.monitor.azure.com']",
-    "scriptSrc": "js\\.monitor\\.azure\\.com/",
-    "saas": true,
+    "icon": "azure.svg",
+    "implies": "Azure",
     "pricing": [
       "payg"
     ],
+    "saas": true,
+    "scriptSrc": "js\\.monitor\\.azure\\.com/",
     "website": "https://azure.microsoft.com/en-us/services/monitor"
   },
   "a-blog cms": {

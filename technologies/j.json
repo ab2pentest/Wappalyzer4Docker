@@ -570,6 +570,26 @@
     ],
     "website": "https://jumpseller.com"
   },
+  "Junip": {
+    "cats": [
+      90
+    ],
+    "description": "Junip provider of a ecommerce brand review platform designed to share customers' story, send review requests and display review content.",
+    "icon": "Junip.svg",
+    "requiresCategory": 6,
+    "js": {
+      "junipLoaded": "\\;confidence:50",
+      "webpackChunkjunip_scripts": "\\;confidence:50"
+    },
+    "pricing": [
+      "freemium",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.juniphq\\.com/",
+    "website": "https://junip.co"
+  },
   "Justo": {
     "cats": [
       6
@@ -709,6 +729,18 @@
     "implies": "jQuery",
     "scriptSrc": "jquery\\.sparkline.*\\.js",
     "website": "http://omnipotent.net/jquery.sparkline/"
+  },
+  "jQuery Modal": {
+    "cats": [
+      59
+    ],
+    "description": "JQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
+    "icon": "jQuery Modal.png",
+    "implies": "jQuery",
+    "dom": "link[href*='jquery.modal.min.css']",
+    "scriptSrc": "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1",
+    "oss": true,
+    "website": "https://jquerymodal.com"
   },
   "jQuery UI": {
     "cats": [

@@ -141,8 +141,8 @@
       "__fetchLocaleData__": "\\;confidence:50",
       "fetchRootComponent": "\\;confidence:50"
     },
-    "scripts": "RootCmp_CMS_PAGE",
     "oss": true,
+    "scripts": "RootCmp_CMS_PAGE",
     "website": "https://developer.adobe.com/commerce/pwa-studio/"
   },
   "Pace": {
@@ -298,6 +298,23 @@
     "saas": true,
     "scriptSrc": "apps\\.paidy\\.com",
     "website": "https://paidy.com"
+  },
+  "Paloma": {
+    "cats": [
+      100
+    ],
+    "description": "Paloma helps ecommerce businesses sell directly to customers in messaging channels, with automated personal shopping conversations.",
+    "icon": "Paloma.svg",
+    "js": {
+      "Paloma.createCookie": ""
+    },
+    "pricing": [
+      "payg"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scriptSrc": "\\.getpaloma\\.com/",
+    "website": "https://www.getpaloma.com"
   },
   "Pantheon": {
     "cats": [
@@ -741,8 +758,8 @@
     "description": "Pendo is a product analytics platform used in release to enrich the product experience and provide insights to the product management team.",
     "icon": "Pendo.svg",
     "js": {
-      "pendo.VERSION": "(.+)\\;version:\\1\\;confidence:1",
-      "pendo.HOST": "\\.pendo\\.io"
+      "pendo.HOST": "\\.pendo\\.io",
+      "pendo.VERSION": "(.+)\\;version:\\1\\;confidence:1"
     },
     "pricing": [
       "freemium",
@@ -2100,6 +2117,28 @@
       "projesoft\\.js"
     ],
     "website": "https://www.projesoft.com.tr"
+  },
+  "PromoBuilding": {
+    "cats": [
+      51
+    ],
+    "description": "PromoBuilding is a subscription-based website builder for optimising budgets for creating promotional campaigns.",
+    "icon": "PromoBuilding.svg",
+    "cookies": {
+      "promobuilding_session": ""
+    },
+    "js": {
+      "promoApi": "\\;confidence:25",
+      "promoDomain": "\\;confidence:25",
+      "promoIsOver": "\\;confidence:25",
+      "promoStart": "\\;confidence:25"
+    },
+    "saas": true,
+    "pricing": [
+      "recurring",
+      "payg"
+    ],
+    "website": "https://promobuilding.ru"
   },
   "Prototype": {
     "cats": [
